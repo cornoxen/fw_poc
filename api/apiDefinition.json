@@ -15,7 +15,7 @@
   "paths": {
     "/rockets/{id}": {
       "get": {
-        "summary": "Single ocket",
+        "summary": "Single rocket",
         "operationId": "getRocket",
         "tags": [
           "-"
