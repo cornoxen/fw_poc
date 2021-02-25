@@ -1,7 +1,7 @@
 {
   "openapi": "3.0.0",
   "info": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "title": "FW_POC",
     "license": {
       "name": "MIT"
@@ -15,8 +15,8 @@
   "paths": {
     "/rockets/{id}": {
       "get": {
-        "summary": "Paginated rockets",
-        "operationId": "getRockets",
+        "summary": "Single ocket",
+        "operationId": "getRocket",
         "tags": [
           "-"
         ],
