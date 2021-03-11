@@ -1,0 +1,42 @@
+// sessione  11 Marzo 2021
+
+POST /rockets/?????
+
+   request body:      
+	{
+		"question": "spaghetti o fusilli?",
+		"answers" : ["spaghetti", "fusilli"],
+		"duration": "XL",
+		"privacy": "strict",
+		"metadata": [
+			{ "type": "language", "value": "ita"},
+			{ "type": "age-group", "value": "30-40"},
+			{ "type": "interests", "values": ["moto"]},
+			{ "type": "tags", "values": ["zio cantante", "maradona"]}
+		]
+	}
+
+   response 
+	201	--> Location /operation/2321
+	
+   /rockets/25
+	{
+		"id": 25,
+		"question": "spaghetti o fusilli?",
+		"answers" : ["spaghetti", "fusilli"],
+		"stats": []
+	}
+	
+   
+--------------------------------------------------	
+
+POST /rockets/?????
+
+   request body:      
+	{
+		"question": "sfsadf dsgdsf gdfgdsgsd",
+		"answers" : ["sadasda", "fdghdfhdf"],
+		"duration": "XL",
+		"privacy": "strict",
+		"metadata": [...]
+	}
